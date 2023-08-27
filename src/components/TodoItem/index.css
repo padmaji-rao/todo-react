@@ -1,0 +1,26 @@
+.todo-bg {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-para {
+  color: black;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-right: 15px;
+}
+.delete-button {
+  background-color: transparent;
+  color: #ff0b37;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #ff0b37;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  outline: none;
+}
